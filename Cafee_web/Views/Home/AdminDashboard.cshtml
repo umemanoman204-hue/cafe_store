@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Cafee_web.Models.Booking>
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container my-5">
+    <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom">
+        <div>
+            <h1 class="fw-bold text-dark mb-0">Management Dashboard</h1>
+            <p class="text-muted small mb-0">Review and track live table reservations coming from your database.</p>
+        </div>
+        <span class="badge bg-dark fs-6 px-3 py-2 rounded-pill">Total: @Model.Count() Bookings</span>
+    </div>
+
+    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th class="ps-4 py-3">Reservation ID</th>
+                        <th class="py-3">Customer Name</th>
+                        <th class="py-3">Email Address</th>
+                        <th class="py-3">Booking Date</th>
+                        <th class="py-3">Time Slot</th>
+                        <th class="pe-4 py-3 text-end">Guests</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (!Model.Any())
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center py-5 text-muted">
+                                <span class="fs-3 d-block mb-2">📁</span>
+                                No active table reservations found in the database.
+                            </td>
+                        </tr>
+                    }
+                    else
+                    {
+                        @foreach (var booking in Model)
+                        {
+                            <tr>
+                                <td class="ps-4 fw-mono text-secondary">#@booking.Id</td>
+                                <td class="fw-bold text-dark">@booking.FullName</td>
+                                <td><a href="mailto:@booking.Email" class="text-decoration-none text-muted">@booking.Email</a></td>
+                                <td>@booking.ReservationDate.ToString("MMMM dd, yyyy")</td>
+                                <td>
+                                    <span class="badge bg-light text-dark border px-3 py-1 rounded-pill">⏰ @booking.TimeSlot</span>
+                                </td>
+                                <td class="pe-4 text-end fw-semibold text-warning">@booking.GuestCount People</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

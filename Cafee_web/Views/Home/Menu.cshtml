@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Our Menu";
+}
+
+<style>
+    body {
+        background-color: #fbf9f4 !important;
+    }
+    /* Ivory Background */
+    .text-cafe-dark {
+        color: #3d2a1d;
+    }
+    /* Espresso Brown */
+    .bg-ivory-card {
+        background-color: #f7f4ed;
+        border: 1px solid #ede9df;
+    }
+
+    .btn-cafe-brown {
+        background-color: #523b2b;
+        color: #fbf9f4;
+        border: none;
+    }
+</style>
+
+<div class="container my-5">
+    <div class="text-center mb-5">
+        <h1 class="fw-bold text-cafe-dark display-4">Our Handcrafted Menu</h1>
+        <p class="text-cafe-dark opacity-75 fs-5">Aesthetic flavors, expertly brewed for your daily escape.</p>
+        <div class="mx-auto border-bottom border-secondary border-2 mt-3" style="width: 50px; opacity: 0.3;"></div>
+    </div>
+
+    <div class="row g-4">
+        <!-- Item 1: Signature Espresso -->
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100 bg-ivory-card">
+                <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?q=80&w=600" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Premium Espresso" />
+                <div class="card-body p-4">
+                    <h5 class="fw-bold text-cafe-dark">Signature Espresso</h5>
+                    <p class="text-cafe-dark opacity-75 small">Rich, dark, and pulled with flawless crema.</p>
+                    <div class="d-flex justify-content-between align-items-center mt-3 border-top pt-3">
+                        <span class="fw-bold fs-5 text-cafe-dark">$3.50</span>
+                        <button class="btn btn-cafe-brown rounded-circle d-flex align-items-center justify-content-center" style="width: 36px; height: 36px; padding: 0;">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 2: Artisanal Latte -->
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100 bg-ivory-card">
+                <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=600" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Artisanal Latte" />
+                <div class="card-body p-4">
+                    <h5 class="fw-bold text-cafe-dark">Artisanal Latte</h5>
+                    <p class="text-cafe-dark opacity-75 small">Velvety steamed milk poured beautifully over rich espresso.</p>
+                    <div class="d-flex justify-content-between align-items-center mt-3 border-top pt-3">
+                        <span class="fw-bold fs-5 text-cafe-dark">$4.25</span>
+                        <button class="btn btn-cafe-brown rounded-circle d-flex align-items-center justify-content-center" style="width: 36px; height: 36px; padding: 0;">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 3: Almond Croissant -->
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100 bg-ivory-card">
+                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=600" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Almond Croissant" />
+                <div class="card-body p-4">
+                    <h5 class="fw-bold text-cafe-dark">Almond Croissant</h5>
+                    <p class="text-cafe-dark opacity-75 small">Crisp, golden-brown layers baked fresh every morning.</p>
+                    <div class="d-flex justify-content-between align-items-center mt-3 border-top pt-3">
+                        <span class="fw-bold fs-5 text-cafe-dark">$3.95</span>
+                        <button class="btn btn-cafe-brown rounded-circle d-flex align-items-center justify-content-center" style="width: 36px; height: 36px; padding: 0;">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

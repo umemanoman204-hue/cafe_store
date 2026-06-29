@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|c:\\users\\lenovo\\source\\repos\\cafee_web\\cafee_web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|solutionrelative:cafee_web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|c:\\users\\lenovo\\source\\repos\\cafee_web\\cafee_web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|solutionrelative:cafee_web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|c:\\users\\lenovo\\source\\repos\\cafee_web\\cafee_web\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|solutionrelative:cafee_web\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|c:\\users\\lenovo\\source\\repos\\cafee_web\\cafee_web\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|solutionrelative:cafee_web\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|c:\\users\\lenovo\\source\\repos\\cafee_web\\cafee_web\\views\\home\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|solutionrelative:cafee_web\\views\\home\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|c:\\users\\lenovo\\source\\repos\\cafee_web\\cafee_web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|solutionrelative:cafee_web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|c:\\users\\lenovo\\source\\repos\\cafee_web\\cafee_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|solutionrelative:cafee_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|c:\\users\\lenovo\\source\\repos\\cafee_web\\cafee_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|solutionrelative:cafee_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|c:\\users\\lenovo\\source\\repos\\cafee_web\\cafee_web\\views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|solutionrelative:cafee_web\\views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|c:\\users\\lenovo\\source\\repos\\cafee_web\\cafee_web\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|solutionrelative:cafee_web\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|c:\\users\\lenovo\\source\\repos\\cafee_web\\cafee_web\\migrations\\20260602120058_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7317D239-0FF6-02A1-62F7-2F455C5329AD}|Cafee_web\\Cafee_web.csproj|solutionrelative:cafee_web\\migrations\\20260602120058_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Cafee_web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Cafee_web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-01T18:25:02.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Cafee_web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Cafee_web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwC8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T18:40:37.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Cafee_web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Cafee_web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAGwAAAAAAIDrgwQpwKQAAACcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-01T18:31:12.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Cafee_web\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Models\\Booking.cs",
+              "RelativeToolTip": "Cafee_web\\Models\\Booking.cs",
+              "ViewState": "AgIAAAgAAAAAAABs/7PzvxAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T19:42:16.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Cafee_web\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Cafee_web\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T19:43:17.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Views\\Home\\Menu.cshtml",
+              "RelativeDocumentMoniker": "Cafee_web\\Views\\Home\\Menu.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Views\\Home\\Menu.cshtml",
+              "RelativeToolTip": "Cafee_web\\Views\\Home\\Menu.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwE4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-01T18:51:06.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\appsettings.json",
+              "RelativeDocumentMoniker": "Cafee_web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\appsettings.json",
+              "RelativeToolTip": "Cafee_web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-01T19:54:46.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Program.cs",
+              "RelativeDocumentMoniker": "Cafee_web\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Program.cs",
+              "RelativeToolTip": "Cafee_web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T19:56:31.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Booking.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Views\\Home\\Booking.cshtml",
+              "RelativeDocumentMoniker": "Cafee_web\\Views\\Home\\Booking.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Views\\Home\\Booking.cshtml",
+              "RelativeToolTip": "Cafee_web\\Views\\Home\\Booking.cshtml",
+              "ViewState": "AgIAAFIAAAAAAAAAVlUlwF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-01T18:54:49.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260602120058_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Migrations\\20260602120058_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Cafee_web\\Migrations\\20260602120058_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Migrations\\20260602120058_InitialCreate.cs",
+              "RelativeToolTip": "Cafee_web\\Migrations\\20260602120058_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T12:00:58.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "Cafee_web\\Views\\Home\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Cafee_web\\Cafee_web\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeToolTip": "Cafee_web\\Views\\Home\\AdminDashboard.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwDoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T12:37:56.224Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+﻿@model Cafee_web.Models.Booking
+
+@{
+    ViewData["Title"] = "Book a Table";
+}
+
+<div class="container my-5 shadow-loading" style="max-width: 600px;">
+    <div class="card border-0 shadow-lg rounded-4 p-4 p-sm-5 bg-white">
+        <div class="text-center mb-4">
+            <h2 class="fw-bold text-dark">Table Reservation</h2>
+            <p class="text-muted small">Secure your spot at Coffeetopia. Fill out your details below.</p>
+            <div class="mx-auto border-bottom border-warning border-3" style="width: 50px;"></div>
+        </div>
+
+        <form asp-controller="Home" asp-action="Booking" method="post" id="cafeBookingForm">
+            <div class="mb-3">
+                <label class="form-label fw-semibold small text-secondary">Full Name</label>
+                <input type="text" asp-for="FullName" class="form-control form-control-lg rounded-3 fs-6 bg-light border-0" placeholder="John Doe" required />
+                <span asp-validation-for="FullName" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-semibold small text-secondary">Email Address</label>
+                <input type="email" asp-for="Email" class="form-control form-control-lg rounded-3 fs-6 bg-light border-0" placeholder="johndoe@example.com" required />
+                <span asp-validation-for="Email" class="text-danger small"></span>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="form-label fw-semibold small text-secondary">Reservation Date</label>
+                    <input type="date" asp-for="ReservationDate" class="form-control form-control-lg rounded-3 fs-6 bg-light border-0" required />
+                    <span asp-validation-for="ReservationDate" class="text-danger small"></span>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label fw-semibold small text-secondary">Time Slot</label>
+                    <input type="time" asp-for="TimeSlot" class="form-control form-control-lg rounded-3 fs-6 bg-light border-0" required />
+                    <span asp-validation-for="TimeSlot" class="text-danger small"></span>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fw-semibold small text-secondary">Number of Guests</label>
+                <select asp-for="GuestCount" class="form-select form-select-lg rounded-3 fs-6 bg-light border-0" required>
+                    <option value="1">1 Person</option>
+                    <option value="2">2 People</option>
+                    <option value="3">3 People</option>
+                    <option value="4">4 People</option>
+                    <option value="5+">5+ People</option>
+                </select>
+                <span asp-validation-for="GuestCount" class="text-danger small"></span>
+            </div>
+
+            <button type="submit" class="btn btn-dark btn-lg w-100 rounded-3 fw-bold shadow-sm py-3 transition-button">
+                Confirm Reservation
+            </button>
+        </form>
+    </div>
+</div>
+
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div id="successToast" class="toast align-items-center text-white bg-dark border-0 rounded-3 p-2" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body fs-6">
+                ☕ <span class="text-warning fw-bold">Success!</span> Your table space has been securely reserved.
+            </div>
+            <button type="button" class="btn-close btn-close-white m-auto me-2" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+    </div>
+</div>
+
+<style>
+    .transition-button:hover {
+        background-color: #ffc107 !important;
+        color: #212529 !important;
+        border-color: #ffc107 !important;
+    }
+</style>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Check if the URL query parameter contains a success flag
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('success') === 'true') {
+                // Initialize and trigger the Bootstrap JavaScript Toast component
+                var toastEl = document.getElementById('successToast');
+                var toast = new bootstrap.Toast(toastEl, { delay: 4000 });
+                toast.show();
+            }
+        });
+    </script>
+}
